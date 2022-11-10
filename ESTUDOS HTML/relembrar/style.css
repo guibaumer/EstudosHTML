@@ -1,0 +1,54 @@
+header {
+background-color: rgb(74, 8, 8);
+color: white;
+
+}
+h1 {
+    color: white;
+    font-size: 4em;
+   margin-top: 0px;
+    text-align: center;
+    padding-top: 15px;
+}
+header > p {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: black;
+    width: 1366px;
+    
+}
+body {
+    background-color: bisque;
+    margin: 0px;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.266);
+    font-size: 1em;
+    color: black;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+.gn {
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#ola {
+    color: bisque;
+}
+#img {
+text-align: center;
+margin-top: 35px;
+}

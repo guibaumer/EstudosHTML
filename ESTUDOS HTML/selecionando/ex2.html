@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+background-color: lightcyan;
+}
+.classe {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+    margin-left: 155px;
+}
+.classe:hover {
+    background-color: teal;
+}
+#hiden {
+    margin-left: 565px ;
+    font-size: 2em;
+}
+#hiden > p {
+    display: none;
+}
+#hiden:hover > p {
+    display: block;
+    color: black;
+    background-color: red;
+    width: 200px;
+}
+#text {
+    text-align: center;
+    font-size: 2em;
+}
+a {
+    font-size: 2em;
+    margin-left: 565px;
+}
+a:visited {
+    color: chartreuse;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="classe">1</div>
+    <div class="classe">2</div>
+    <div class="classe">3</div>
+    <p id="text">Parágrafo escondido</p>
+    <div id="hiden">
+        passe o mouse aqui
+        <p>texto, texto, texto...</p>
+    </div>
+    <a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">Curso em video YT</a>
+</body>
+</html>

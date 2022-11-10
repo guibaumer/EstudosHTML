@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') ;
+    font-weight: normal ;
+}
+:root {
+    --fonte1: 'Android', 'Arial';
+
+}
+body {
+    margin: 0px;
+    background-color: rgb(133, 255, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to bottom, #49c5a0, rgb(32, 138, 87));
+    text-align: center;
+    color: white;
+    padding: 45px;
+    padding-bottom: 20px;
+}
+nav {
+    width: 550px;
+    margin-left: -90px;
+    
+}
+header > p {
+    margin-bottom: 45px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px;
+}
+nav > a:hover {
+    background-color: rgba(255, 255, 255, 0.228);
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.266);
+    padding-bottom: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+main img {
+width: 100%; }
+main img.pequena {
+    width: 50%;
+}
+.subt {
+    background-image: linear-gradient(to right, rgba(25, 185, 100, 0.731), rgba(226, 238, 232, 0.314)) ;
+; text-align: left;
+    margin-right: 3px;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+h2 {
+    font-family: var(--fonte1);
+    color: white;
+}
+#titulo {
+    margin-top: 0px;
+    padding-top: 19px;
+    color: rgb(124, 124, 124);
+}
+div {
+    background-color: rgb(103, 252, 175);
+    border-radius: 5px;
+    margin: 25px;
+    text-align: justify;
+    padding-bottom: 15px;
+   
+}
+h3 {
+    background-color: rgb(31, 219, 122);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+.text {
+    margin: 15px;
+}
+.item {
+    width: 400px;
+} 
+footer {
+    font-style: italic;
+    color: white;
+    background-color: black;
+    font-size: 0,8em;
+    text-align: center;
+    padding: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+footer a:hover {
+    text-decoration: underline;
+    color:  rgb(32, 138, 87);
+}
+header > h1:hover {
+    text-shadow: 1px 1px 1px rgb(250, 247, 247); 
+}
+header > p:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> DADOS</header>
+    <section>
+<div>
+    <p> Qual é a capital da Croácia?</p>
+    <input type="text" name="txt" id="txt1">
+    <p><strong>DICA:</strong> Começa com "Z".</p>
+    <input type="button" value="VERIFICAR" onclick="verificar()">
+</div>
+<div  id = pontos>
+
+</div>
+ <div id = res>
+
+</div>
+    </section>
+    <script>
+    function verificar() {
+var ponto = 0
+var r1 = document.getElementById('txt1')
+if (r1.value.length == 0) {
+    alert('Preencha a caixa de resposta!')
+} else if (r1.value == 'Zagreb' || r1.value == 'zagreb' || r1.value == 'Zagrebe' || r1.value == 'zagrebe') {
+    res.innerHTML = 'CEEEEERTO!'
+    var ponto =+ 1
+    pontos.innerHTML = `Pontuação: ${ponto}`
+    
+}
+else {
+res.innerHTML = 'ERRAAAAADO!'
+pontos.innerHTML = `Pontuação: ${ponto}`
+}
+
+
+
+    }
+    </script>
+    
+</body>
+</html>
