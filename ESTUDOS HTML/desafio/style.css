@@ -1,11 +1,8 @@
-@font-face {
-    font-family: 'Android';
-    src: url('../fontes/idroid.otf') ;
-    font-weight: normal ;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 :root {
-    --fonte1: 'Android', 'Arial';
-
+    --fonte1: 'Share Tech', sans-serif;
+    --fontedestaque: 'Bebas Neue', 'cursive';
 }
 body {
     margin: 0px;
@@ -37,7 +34,10 @@ nav > a:hover {
     background-color: rgba(255, 255, 255, 0.228);
 }
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: var(--fontedestaque); 
+   font-size: 3em;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 main {
     min-width: 300px;
@@ -62,16 +62,19 @@ main img.pequena {
     margin-right: 3px;
     margin-left: 20px;
     padding-left: 15px;
+    font-family: var(--fonte1);
 }
 
 h2 {
-    font-family: var(--fonte1);
+    
     color: white;
 }
 #titulo {
     margin-top: 0px;
     padding-top: 19px;
     color: rgb(124, 124, 124);
+    font-family: var(--fonte1);
+    font-size: 1.5em;
 }
 div {
     background-color: rgb(103, 252, 175);
